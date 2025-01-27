@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIGVON</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="shortcut icon" href="images/pngtree-salon-logo-png-image_6942006.png" type="image/jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+
+ <nav class="navbar">
+  
+    <div class="logo">
+        <a href="index.html"><img src="images/pngtree-salon-logo-png-image_6942006.png"></a>
+      <a href="index.html"> <div class="text"><span>WIGVON</span> </div></a> 
+       </div>
+
+  
+    <ul class="menu">
+       <!--<div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="search">
+        </div>--> 
+        <li><a href="index.html" class="active" >Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#new">Hair</a></li>
+        <li><a href="#service">Service</a></li>
+       <li><a href="#section"><ion-icon name="cart-outline"  onclick="count()"></ion-icon>Add to Cart </a></li> 
+      <!--  <input type="checkbox" id="darkmode">
+         <label for="darkmode-toggle"></label>--> 
+      
+       <p id="cart-count"></p>
+       
+    </ul>
+
+
+
+    <div class="menu-btn">
+        <ion-icon name="menu-outline"></ion-icon>
+    </div>
+ </nav>
+
+    <section class="content">
+       <div class="box1">
+        <img src="images/download (14).png" class="png">
+       </div>
+
+   <div class="box2">
+    <h4>Welcome to <span>WIGVON</span> Empowering Women through Beauty and Faith.
+        At <span>WIGVON</span>, we believe that every woman deserves to feel confident and stylish. We provide premium quality wigs, hair extensions. and professional hair services to help you achieve the look you desire. Explore our collection and book 
+        a service today! <br><br>
+      <div class="icon" ><ion-icon name="call-outline" class="ion-icon" id="num"></ion-icon>+2348084635700 <br>
+        <ion-icon name="mail-outline" class="ion-icon" id="num"></ion-icon> wigvon.everythinghair@gmail.com  <br>
+        Address: (Egbeda, Lagos, Nigeria) <br>
+       
+    
+    </div>  
+    </h4>
+       </div>
+     </section>
+
+     <div class="aside" id="About">
+        <div class="pleading">About Us</div>
+        <div class="text2">
+           At <span>WIGVON</span>, we offer more than just wigs. We provide: 
+           <br><br>
+            <ol type="i" class="text2" >
+                <li>Quality:  Our wigs are made from premium materials,designed for durability and comfort. </li><br>
+                <li>Confidence:  Wearing our wigs gives you the confidence to face each day, empowered by the beauty and resilence of the women we admire.</li> <br>
+                <li>Faith: We draw from the stories of biblical womentto inspire hope, strength, and faith, creating a community where women can feel connectednot only to their outer beauty but also to their inner strength.</li>
+            </ol> 
+           <br>
+            Whether you're looking for everyday elegance or something special, our wigs are crafted to help you step into the best version of yourself- empowered, beautiful, and full of faith.
+
+        </div>
+
+        <div class="service" id="service">
+            <div class="pleading">Our Services</div>
+            <ul class="option">
+                <li class="lead">List of Hair Services Offered:</li> <br>
+                <li>Wig Styling & Customization</li>
+                <li>Wig Collections</li>
+                <li>Wig Laundry & Maintenance</li>
+            </ul>
+        </div>
+     </div>
+
+     <h1 class="pleading" id="new">Human Hair Wigs.</h1>
+
+     <section class="sec">
+        <div class="products">
+
+           <div class="card">
+                <div class="img"><img src="images/luxury-hair-display_1336216-5063.jpg"></div><br>
+                <!---->
+                <ul class="cart-items"></ul>
+              <div class="title">Human Hair</div></a> 
+               <!-- <div class="desc">By Flavio cCopes</div>--> <br>
+               <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star"></ion-icon> 31 reviews
+               <div class="price">$150.00</div>
+               <div class="buttons">
+                <button class="box" onclick="addToCart('Human Hair', 150)">Add to Cart</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/nel.jpg"></div><br>
+               <!---->
+               <ul class="cart-items"></ul>
+              <div class="title">Handmade Wig.</div>
+                <!-- <div class="desc"> By.Mozilla</div><br>-->  <br>
+                <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> 54 reviews
+              <div class="price">$20.00</div>
+               <div class="buttons">
+                <button class="box" onclick="addToCart('Handmade Wig', 20)">Add to Cart</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/71tNkpeQdQL._SL1500_.jpg"></div>
+                <br>
+               <ul class="cart-items"></ul>
+                <div class="title">Full Front Human Hair</div></a>
+                <!-- <div class="desc"> By. Alison.</div>--> <br>
+                <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> 65 reviews
+               <div class="price">$120.00</div>
+               <div class="buttons">
+                <button class="box" onclick="addToCart('Full Front Human Hair', 120)">Add to Cart</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/OIP.jpg"></div>
+                <br>
+               <ul class="cart-items"></ul><br>
+                <div class="title">Human Hair</div>
+                 <!--<div class="desc"> By. Donet</div>--> <br>
+                 <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star" ></ion-icon> 25 reviews
+              <div class="price">$180.00</div>
+               <div class="buttons">
+                <button class="box" onclick="addToCart('Human Hair',180)">Add to Cart</button>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/human hair.jpg"></div><br>
+                <ul class="cart-items"></ul>
+                <div class="title">Human Hair </div>
+                 <!-- <div class="desc">By JavaScript Tutorial Website</div>--> <br>
+                 <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> 55 reviews
+                 <div class="price">$250.00</div>
+                 <div class="buttons">
+                    <button class="box" onclick="addToCart('Human Hair', 250)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/brazilian human.jpg"></div>
+                 <br>
+                <ul class="cart-items"></ul><br>
+                <div class="title">brazilian human.</div>
+                 <!--<div class="desc">By Python Software foundation.</div>--> <br>
+                 <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> 76 reviews
+               <div class="price">$160.00</div>
+                <div class="buttons"> 
+                    <button class="box" onclick="addToCart('brazilian human', 160)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/Bone straight.jpg"></div><br>
+                <div class="title"> 4x4 Lace BOB Wig.</div>
+                <ul class="cart-items"></ul>
+               <!-- <div class="desc">By.Educative io.</div>--> <br>
+               <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> 31 reviews
+               <div class="price">$100.00</div>
+                <div class="buttons">
+                    <button class="box" onclick="addToCart(' 4x4 Lace BOB Wig', 100)">Add to Cart</button>
+                </div>
+               
+                
+                
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/short curly afro wig.jpg"></div><br>
+               <div class="title">Short Curly Afro Wig.</div>
+                <ul class="cart-items"></ul>
+                <!-- <div class="desc">By Learn PHP.</div>--> <br>
+                <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> 54 reviews
+                <div class="price">$110.00</div>
+                <div class="buttons">
+                    <button class="box" onclick="addToCart('Short Curly Afro Wig', 110)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/short curly wig.jpg"></div><br>
+                <div class="title">Short Curly Wig</div>
+                <ul class="cart-items"></ul>
+                <!--<div class="desc">By mysql Tutorial.</div> --> <br>
+                <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> 28 reviews
+                <div class="price">$110.00</div>
+                <div class="buttons"> 
+                    <button class="box" onclick="addToCart('Short Curly Wig', 110)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/brazilian.jpg"></div>
+                <!----> <br>
+                <ul class="cart-items"></ul>
+               <div class="title"> Curly Brazilian Hair.</div> <br>
+               <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star"></ion-icon> 0 reviews
+                <div class="price">$150.00</div>
+                <div class="buttons">
+                    <button class="box" onclick="addToCart('Curly Brazilian Hair', 150)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/brazil.jpg"></div>
+                <!----> <br>
+                <ul class="cart-items"></ul>
+              <div class="title">Brazilian Hair</div>
+               <!--<div class="desc"> By.GeeksforGeeks</div><br>--> <br>
+               <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star" ></ion-icon> 21 reviews
+               <div class="price">$25.00</div>
+                <div class="buttons">
+                    <button class="box" onclick="addToCart('Brazilian Hair',25)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/brazilian human.jpg"></div>
+                <!----> <br>
+                <ul class="cart-items"></ul>
+                 <div class="title">Short brazilian hair.</div>
+                <!--<div class="desc">By.React.Dev</div>--> <br>
+                <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" class="star"></ion-icon> <ion-icon name="star" ></ion-icon> <ion-icon name="star" ></ion-icon> 40 reviews
+                <div class="price">$16.00</div>
+                <div class="buttons">
+                    <button class="box" onclick="addToCart('Short brazilian hair', 16)">Add to Cart</button>
+                </div>
+                
+            </div>
+
+            <section class="cart" id="section">
+                <h2>Added To Cart.</h2>
+                <ul id="cart-items"></ul>
+               <p class="mee">Total: $<span id="total-price">0</span></p>
+                <button class="box" onclick="resetCart()" >Reset</button>
+            </section>
+        </div>
+
+        
+     </section>
+
+  
+
+    
+
+     <footer>
+        <p class="down">Copyrights at <a href="">
+            <span>WIGVON</span>
+        </a>  <a href="https://web.facebook.com/"><ion-icon name="logo-facebook" class="icon"></ion-icon> 
+            <a href="https://web.instagram.com"><ion-icon name="logo-instagram"></ion-icon></p></a></a>
+        
+     </footer>
+     
+     <script src="amazon.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+</body>
+</html>
